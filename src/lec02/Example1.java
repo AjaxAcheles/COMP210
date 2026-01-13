@@ -39,7 +39,7 @@ public class Example1 {
         System.out.print("String Array sA: " + sA);
         System.out.print("byte Array bA: " + bA);
         System.out.print("int Array nA: " + nA);
-        System.out.print("char Array cA: " + cA);
+        System.out.print("char Array cA: " + String.valueOf(cA));
         System.out.print("float Array fA: " + fA);
     }
 }
