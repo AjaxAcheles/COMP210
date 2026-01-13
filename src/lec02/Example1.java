@@ -36,29 +36,10 @@ public class Example1 {
         // print all reference data types
         System.out.println("String s1: " + s1);
         System.out.println("String s2: " + s2);
-        System.out.print("String Array sA: ");
-        for(String str : sA){
-            System.out.print(str + " ");
-        }
-        System.out.println();
-        System.out.print("byte Array bA: ");
-        for(byte x : bA){
-            System.out.print(x + " ");
-        }
-        System.out.println();
-        System.out.print("int Array nA: ");
-        for(int num : nA){
-            System.out.print(num + " ");
-        }
-        System.out.println();
-        System.out.print("char Array cA: ");
-        for(char ch : cA){
-            System.out.print(ch + " ");
-        }
-        System.out.println();
-        System.out.print("float Array fA: ");
-        for(float f : fA){
-            System.out.print(f + " ");
-        }
+        System.out.print("String Array sA: " + sA);
+        System.out.print("byte Array bA: " + bA);
+        System.out.print("int Array nA: " + nA);
+        System.out.print("char Array cA: " + cA);
+        System.out.print("float Array fA: " + fA);
     }
 }
