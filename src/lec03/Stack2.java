@@ -1,4 +1,4 @@
-package lec02;
+package lec03;
 public class Stack2 {
 
     public static void main (String[] args){
