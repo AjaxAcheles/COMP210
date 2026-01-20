@@ -1,0 +1,16 @@
+package lec04;
+
+public class FactIter {
+    public static void main (String[] args){
+        int k = 20;
+//        int k = -1;
+        System.out.println("factorial("+k+") = " + fact(k));
+    }
+    public static int fact(int n){
+        int result = 1;
+        for (int i = 1; i <= n; i++){
+            result = result * i;
+        }
+        return result;
+    }
+}
