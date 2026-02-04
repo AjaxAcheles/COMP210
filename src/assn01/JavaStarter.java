@@ -7,7 +7,11 @@ public class JavaStarter {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         if (n == 1) {
+<<<<<<< HEAD
             System.out.println("Hello, World!\n");
+=======
+            System.out.println("Hello World!\n");
+>>>>>>> refs/remotes/origin/main
         } else if (n == 2) {
             double a = scanner.nextDouble();
             double b = scanner.nextDouble();
